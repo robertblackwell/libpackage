@@ -1,0 +1,20 @@
+{
+    "name":"robertblackwell/libpackage",
+    "description": "Dummy package testing composer",
+    "keywords": ["test"],
+    "type": "library",
+    "homepage": "https://github.com/robertblackwell/libpackage",
+    "license": "MIT",
+    "bin": ["bin/libpackage"],
+    "minimum-stability":"dev",
+    "authors": [
+        {
+            "name":"robertblackwell",
+            "homepage":"https://github.com/robertblackwell"
+        }
+    ],
+
+    "autoload": {
+        "classmap": ["./src"]
+    }
+}
