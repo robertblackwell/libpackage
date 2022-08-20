@@ -5,7 +5,6 @@
     "type": "library",
     "homepage": "https://github.com/robertblackwell/libpackage",
     "license": "MIT",
-    "bin": ["bin/libpackage"],
     "minimum-stability":"dev",
     "authors": [
         {
@@ -15,6 +14,6 @@
     ],
 
     "autoload": {
-        "classmap": ["./src"]
+        "psr-4": {"LibPackage\\" : "./src"}
     }
 }
