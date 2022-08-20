@@ -7,6 +7,6 @@ class Obj {
 	}
 	public function sayHello(): void {
 		$s = __FILE__;
-		print("say hello from {$s}\n");
+		print("say hello from {$s} .. that is all\n");
 	}
 }
